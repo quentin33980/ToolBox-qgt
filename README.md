@@ -4,8 +4,8 @@ La toolbox est consitué de 4 programmes différents
 <ol>
   <li>Scan du réseau</li>
   <li>Enumération repertoire web </li>
-  <li>CVE-</li>
-  <li>CVE-</li>
+  <li>CVE-2024-23897</li>
+  <li>CVE-2021-42013 </li>
 </ol>
 
 <strong>Scan du réseau : </strong> <br> explication
