@@ -47,7 +47,7 @@ sudo apt install python3-pip
 ### Installation librairies 
 
 ```pip
-pip install requests | pip install python-nmap | pip install argparse | pip install subprocess
+
 
 ```
 
