@@ -12,9 +12,9 @@ La toolbox est consitué de 4 programmes différents
 
 <strong>Enumération repertoire web : </strong> <br> explication
 
-<strong>CVE- : </strong> <br> explication
+<strong>CVE-2024-23897 : </strong> <br> explication
 
-<strong>CVE- : </strong> <br>explication 
+<strong>CVE-2021-42013 : </strong> <br>explication 
 
 ## Prérequis
 Installation sur une machine Linux, préferé une machine Kali ou parrot
@@ -26,7 +26,7 @@ sudo apt update
 ```
 
 ```bash
-  sudo apt upgrade
+sudo apt upgrade
 ```
 
 Le programme est fonctionnant en python 3, plusieurs libraries sont 
