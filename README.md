@@ -45,14 +45,14 @@ sudo apt install python3-pip
 sudo pip install argparse && pip install requests && pip install csv && pip install python-nmap
 ```
 
-### Création repertoire 
+### 📂 Création repertoire 
 Création d'un répertoire toolbox-qgt
 ```bash
 mkdir Toolbox-qgt 
 cd Toolbox-qgt
 ```
-### Téléchargement de la ToolBox 
+### ⬇️ Téléchargement de la ToolBox 
 ```bash
-
+wget https://github.com/quentin33980/ToolBox-qgt.git
 ```
 
