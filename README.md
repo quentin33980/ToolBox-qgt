@@ -2,7 +2,7 @@
 
 ## 🎯Objectifs 
 
-L'objectif de la toolbox qgt est de rechercher et d'exploiter différentes vulnérabilités en utilisant les <strong>CVE-2021-42013</strong> et la <strong>2024-23897</strong>. Une seconde fonctionnalité de la toolbox sera le scan d'un réseau ainsi que de l'énumération des repertoires possiblement présent sur un serveur web.
+L'objectif de la toolbox qgt est de rechercher et d'exploiter différentes vulnérabilités en utilisant les <strong>CVE-2021-42013</strong> et la <strong>CVE-2024-23897</strong>. Une seconde fonctionnalité de la toolbox sera le scan d'un réseau ainsi que de l'énumération des repertoires possiblement présent sur un serveur web.
 
 ## ℹ️ Présentation 
 La toolbox est consitué de 4 programmes différents 
