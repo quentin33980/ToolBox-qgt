@@ -35,8 +35,8 @@ Le programme est fonctionnant en python 3, plusieurs libraries sont à installé
 ###  Installation python et pip
 
 ```bash
-sudo apt install python3 -n
-sudo apt install python3-pip -n
+sudo apt install python3 -y
+sudo apt install python3-pip -y
 ```
 
 ### 📚 Installation librairies 
