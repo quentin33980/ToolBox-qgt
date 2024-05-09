@@ -57,8 +57,8 @@ wget https://github.com/quentin33980/ToolBox-qgt.git
 ```
 ### 🏴‍☠️ Installation du docker APACHE 
 ```bash
-docker build -t apache .
+sudo docker build -t apache .
 ```
 ```bash
-docker run -it apache
+sudo docker run -it apache
 ```
