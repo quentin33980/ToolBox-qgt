@@ -27,7 +27,7 @@ Installation sur une machine Linux, préferé une machine Kali ou parrot
 Mises à jours de la distribution Linux 
 
 ```bash
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 ```
 
 Le programme est fonctionnant en python 3, plusieurs libraries sont à installé pour faire fonctionné le programme 
