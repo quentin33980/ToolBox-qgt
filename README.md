@@ -56,21 +56,46 @@ sudo apt install python3-pip -y
 sudo pip install argparse && pip install requests && pip install python-nmap
 ```
 
+### 🐋 Installation Docker
+```bash
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+```
+```bash
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+```bash
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+```
+```bash
+sudo apt update
+```
+```bash
+sudo apt install docker-ce
+```
+
+Verification du fonctionnement de docker
+```bash
+sudo systemctl status docker
+```
 ### 📂 Création repertoire 
 Création d'un répertoire toolbox-qgt
 ```bash
 mkdir Toolbox-qgt 
 cd Toolbox-qgt
 ```
+
+
 ### ⬇️ Téléchargement de la ToolBox 
 ```bash
 git clone git@github.com:quentin33980/ToolBox-qgt.git
 ```
-```
-### 🏴‍☠️ Installation du docker APACHE 
 ```bash
+### 🏴‍☠️ Installation du docker APACHE 
 sudo docker build -t apache .
 ```
 ```bash
 sudo docker run -it apache
 ```
+
+
+
