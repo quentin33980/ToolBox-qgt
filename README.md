@@ -89,8 +89,9 @@ cd Toolbox-qgt
 ```bash
 git clone git@github.com:quentin33980/ToolBox-qgt.git
 ```
-```bash
+
 ### 🏴‍☠️ Installation du docker APACHE 
+```bash
 sudo docker build -t apache .
 ```
 ```bash
