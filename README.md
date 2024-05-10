@@ -90,11 +90,14 @@ L'option n°2 permet d'exploité le service Jenkins 2.441. Il utilise la CVE-202
 Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '172.17.0.2:80'.
 <strong>🔍Exploitation d'Apache🔍</strong> <br> explication
 
-<strong>📡Scan du réseau📡 : </strong> <br> explication
+<strong>📡Scan du réseau📡 : </strong> <br> 
+
+L'option n°3 utilise l'outil scapy ce qui permet de rendre le scan du réseau depuis l'ip automatiquement récupérer où nous sommes connecté. Une fois les ip récupérées, un rapport est généré dans un dossier respectif 'ip-results', en .csv puis converti en .pdf. En plus de cela, il propose de faire un scan plus développé en s'appuyant sur l'outil Nmap pour en faire un rapport, une page par Ip, également produit dans le dossier.
 
 
 ### 🗂️ Enumération répertoires web 🗂️
-L'option d'énumération des répertoires web permettra à l'utilisateur d'effectuer automatiquement un balayage des répertoires présents sur un serveur web. Cette fonction générera en sortie un fichier CSV et un fichier PDF, offrant ainsi une optimisation du temps lors de l'inspection d'un site web.
+
+L'option n°4, énumération des répertoires web permettra à l'utilisateur d'effectuer automatiquement un balayage des répertoires présents sur un serveur web. Cette fonction générera en sortie un fichier CSV et un fichier PDF, offrant ainsi une optimisation du temps lors de l'inspection d'un site web.
 
 Lors du lancement de la partie d'énumération, l'utilisateur sera invité à fournir trois paramètres : <br>
 **1.** Adresse IP du serveur à scanner : Correspondant à l'adresse du serveur à balayer, récupérée lors de la phase de scan du réseau. <br>
