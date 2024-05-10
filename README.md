@@ -1,6 +1,6 @@
 # ToolBox-qgt
 
-> [!Attention]
+> [!Caution]
 > Cette toolbox est à des fins pédagogiques, ne pas utiliser sans accord.
 
 > [!NOTE]
