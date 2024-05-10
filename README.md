@@ -92,26 +92,16 @@ Verification du fonctionnement de docker
 ```bash
 sudo systemctl status docker
 ```
-### 📂 Création repertoire 
-Création d'un répertoire toolbox-qgt
-```bash
-mkdir Toolbox-qgt 
-cd Toolbox-qgt
-```
 
 
 ### ⬇️ Téléchargement de la ToolBox 
 ```bash
 git clone https://github.com/quentin33980/ToolBox-qgt.git
 ```
+```bash
+cd ToolBox-qgt
+```
 
-### 🏴‍☠️ Installation du docker APACHE 
-```bash
-sudo docker build -t apache .
-```
-```bash
-sudo docker run -it apache
-```
 
 
 ### 🗂️ Enumération répertoires web 
@@ -124,6 +114,13 @@ Lors du lancement de la partie d'énumération, l'utilisateur sera invité à fo
 Une fois le scan réaliser l'utilisateur retrouveras les résultats dans le dossier **"Résultats Enummération".**
 
 
+### 🏴‍☠️ Installation du docker APACHE 
+```bash
+sudo docker build -t apache .
+```
+```bash
+sudo docker run -it apache
+```
 
 
 
