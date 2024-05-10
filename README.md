@@ -90,12 +90,20 @@ L'option n°5 permet d'installer un service Apache 2.4.50 sur un docker. Une pag
 
 🔥ATTENTION🔥
 
-Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '172.17.0.2:80'. Si la page ne fonctionne pas, il faudra faire la commande suivante : 
+Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert) ou si le revershell ne fonctionne pas :
+
+![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/3a73367c-abe9-447e-b50a-323d6678e9a5)
+
+, il faudra aller dans votre navigateur pour rechercher l'ip '172.17.0.2:80'. Pour ces deux cas, il faudra faire la commande suivante : 
+
 
 ```bash
 sudo docker ps
 ```
-![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/7fce846f-cfcb-4284-8a02-ac4505fe7eef)
+
+![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/439bb815-4b67-4c5e-ac37-2a97bdc4bc6d)
+
+
 
 Récupérer TOUT les containers ID pour le mettre dans la commande suivante : 
 
