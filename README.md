@@ -51,7 +51,6 @@ La toolbox est consitué de 6 programmes différents
 
 <strong>Scan du réseau : </strong> <br> explication
 
-<strong>Enumération repertoire web : </strong> <br> permet à l'utilisateur de lancer une exploration des répertoires sur un serveur web. L'outil scanne automatiquement les répertoires en fonction de la liste de mots choisie et renvoie les résultats sous forme d'un fichier CSV.
 
 ### 🗂️ Enumération répertoires web 
 L'option d'énumération des répertoires web permettra à l'utilisateur d'effectuer automatiquement un balayage des répertoires présents sur un serveur web. Cette fonction générera en sortie un fichier CSV et un fichier PDF, offrant ainsi une optimisation du temps lors de l'inspection d'un site web.
