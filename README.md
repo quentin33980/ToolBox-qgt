@@ -84,7 +84,7 @@ sudo apt install python3-pip -y
 ### 📚 Installation librairies 📚
 
 ```pip
-sudo pip install argparse && pip install requests && pip install python-nmap && pip install reportlab
+sudo pip install -r requirements.txt
 ```
 
 
