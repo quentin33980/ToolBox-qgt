@@ -81,6 +81,18 @@ sudo apt install python3 -y
 sudo apt install python3-pip -y
 ```
 
+### 🛠️ Installation de Git 🛠️
+```bash
+sudo apt install git -y 
+```
+### ⬇️ Téléchargement de la ToolBox ⬇️ 
+```bash
+git clone https://github.com/quentin33980/ToolBox-qgt.git
+```
+```bash
+cd ToolBox-qgt
+```
+
 ### 📚 Installation librairies 📚
 
 ```pip
@@ -91,13 +103,6 @@ sudo pip install -r requirements.txt
 
 
 
-### ⬇️ Téléchargement de la ToolBox ⬇️ 
-```bash
-git clone https://github.com/quentin33980/ToolBox-qgt.git
-```
-```bash
-cd ToolBox-qgt
-```
 
 
 
