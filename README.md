@@ -31,7 +31,7 @@ Le projet s'est composé de neuf grandes parties : <br>
 
 
 ## ℹ️ Présentation ℹ️ 
-La toolbox est consitué de 6 programmes différents 
+La toolbox propose de 6 programmes différents 
 
 
 
