@@ -154,6 +154,7 @@ git clone https://github.com/quentin33980/ToolBox-qgt.git
 cd ToolBox-qgt
 ```
 ```bash
+sudo su
 sudo python3 toolbox.py
 ```
 
