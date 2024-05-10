@@ -35,7 +35,8 @@ La toolbox propose de 6 programmes différents
 
 
 
-![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/3a11397f-92bf-4b70-a1e1-4f91a8802de7)
+![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/8f01746f-0b20-420a-a4d1-4ed87686f8e3)
+
 
 
 ### <strong>🛠️Installation du Jenkins🛠️</strong> <br> 
