@@ -76,7 +76,7 @@ Vous pourrez à nouveau faire l'installation via la Toolbox.
 
 <strong>🔍Exploitation du Jenkins🔍</strong> <br> 
 
-L'option n°2 permet d'exploité le service Jenkins 2.441. Il utilise la CVE-2024-23897 permettant de récupérer le mot de passe de l'administrateur en téléchargeant le fichier 'jenkins-cli.jar' depuis le serveur Jenkins. Ce dernier est mis dans une commande java qui sortira une erreur verbeuse nous indiquant le mot de passe administrateur.Le mot de passe sera également noté dans un fichier nommée 'mdpADMIN'.<strong> Il suffira de copier coller le mot de passe sur le navigateur </strong>.  Une page Firefox ou le navigateur par défaut devrait s'ouvrir directement sur la page ci-dessous.
+L'option n°2 permet d'exploité le service Jenkins 2.441. Il utilise la CVE-2024-23897 permettant de récupérer le mot de passe de l'administrateur en téléchargeant le fichier 'jenkins-cli.jar' depuis le serveur Jenkins. Ce dernier est mis dans une commande java qui sortira une erreur verbeuse nous indiquant le mot de passe administrateur.Le mot de passe sera également noté dans un fichier nommée 'mdpADMIN'.<strong> Il suffira de copier coller le mot de passe (utilisateur 'admin') sur le navigateur </strong>.  Une page Firefox ou le navigateur par défaut devrait s'ouvrir directement sur la page ci-dessous.
 
 ### Première connexion 
 
