@@ -153,18 +153,19 @@ git clone https://github.com/quentin33980/ToolBox-qgt.git
 ```bash
 cd ToolBox-qgt
 ```
-```bash
-sudo su
-sudo python3 toolbox.py
-```
+
 
 ### 📚 Installation librairies 📚
 
 ```pip
 sudo pip install -r requirements.txt
 ```
+### 💣 Utilisation de la ToolBox 💣 
 
-
+```bash
+sudo su
+sudo python3 toolbox.py
+```
 
 
 
