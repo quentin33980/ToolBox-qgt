@@ -1,11 +1,12 @@
 # ToolBox-qgt
 
-> [!Caution]
-> Cette toolbox est à des fins pédagogiques, ne pas utiliser sans accord.
-
 > [!NOTE]
 > Cette Toolbox est privé et a été développé par nous 3 (QGT).
 > Toutes réutilisations du code n'est pas accepté. 
+
+> [!Caution]
+> Cette toolbox est à des fins pédagogiques, ne pas utiliser sans accord.
+
 
 <h1 align="center">🎯 Objectifs 🎯</h1>
 
