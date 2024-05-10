@@ -119,7 +119,7 @@ nc -lvp 4444
 
 ### <strong> 💣 Quitter 💣</strong> <br> 
 
-L'option n°7 sert à quitter l'outil <strong> proprement </strong>  pour pouvoir repartir sur une machine vierge. 
+L'option n°7 sert à quitter l'outil <strong>proprement</strong>  pour pouvoir repartir sur une machine vierge. 
 
 
 ## ⚙️Prérequis⚙️
