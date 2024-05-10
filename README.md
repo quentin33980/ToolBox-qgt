@@ -101,11 +101,6 @@ Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déj�
 ```bash
 sudo docker ps
 ```
-
-![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/439bb815-4b67-4c5e-ac37-2a97bdc4bc6d)
-
-![Vidéo-sans-titre-‐-Réalisée-avec-Clipchamp(1)](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/5e509e0b-61c2-4799-9e5a-9ba1cf890238)
-
 Récupérer TOUT les containers ID pour le mettre dans la commande suivante : 
 
 ```bash
@@ -119,6 +114,10 @@ Si le problème est une erreur de port déjà utilisé, il faut faire un kill du
 sudo lsof -i :4444
 sudo kill -9 NUMERO_DU_PID_UTILISE
 ```
+
+![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/439bb815-4b67-4c5e-ac37-2a97bdc4bc6d)
+
+![Vidéo-sans-titre-‐-Réalisée-avec-Clipchamp(1)](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/5e509e0b-61c2-4799-9e5a-9ba1cf890238)
 
 ### <strong>🔍Exploitation d'Apache🔍</strong> <br> 
 
