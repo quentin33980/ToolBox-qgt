@@ -88,7 +88,7 @@ cd Toolbox-qgt
 
 ### ⬇️ Téléchargement de la ToolBox 
 ```bash
-git clone git@github.com:quentin33980/ToolBox-qgt.git
+git clone https://github.com/quentin33980/ToolBox-qgt.git
 ```
 
 ### 🏴‍☠️ Installation du docker APACHE 
