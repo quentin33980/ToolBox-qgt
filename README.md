@@ -58,7 +58,8 @@ L'option n°1 permet d'installer un service Jenkins 2.441 sur un docker. Une pag
 
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/8428d758-fbd1-47de-a0a1-5c679aa77887)
 
-<h3 align="center">🔥ATTENTION🔥</h3>
+> [!Caution]
+><h3 align="center">🔥ATTENTION🔥</h3>
 
 Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '127.0.0.1:8080'. Si la page ne fonctionne pas, un temps de 80 secondes est imposé pour permettre au serveur de bien démarrer. Une machine suffisament puissante devrait le faire en moins de 80 secondes. Si ce n'est pas le cas, il faudra modifier le fichier JenkinsInstall.py sur les dernières lignes :
 
