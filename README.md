@@ -37,14 +37,6 @@ La toolbox est consitué de 6 programmes différents
 
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/3a11397f-92bf-4b70-a1e1-4f91a8802de7)
 
-<ol>
-  <li>Installation de Jenkins</li>
-  <li>Exploitation du Jenkins</li>
-  <li>Scan réseau</li>
-  <li>Enumération de répertoire web</li>
-  <li>Installation d'Apache</li>
-  <li>Exploitation d'Apache</li>
-  </ol>
 
 <strong>🛠️Installation du Jenkins🛠️</strong> <br> 
 
