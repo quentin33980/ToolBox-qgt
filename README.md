@@ -133,7 +133,7 @@ nc -lvp 4444
 
 ### <strong> 💣 Autodestruction 💣</strong> <br> 
 
-L'option n°7 (anéanti la machine en supprimant la racine) sert à quitter l'outil <strong>proprement</strong> (en cas de problème :) ).  
+L'option n°7 (anéanti la machine en supprimant la racine) sert à quitter l'outil <strong>proprement</strong> (en cas de problème 😊 ).  
 
 
 ## ⚙️Prérequis⚙️
