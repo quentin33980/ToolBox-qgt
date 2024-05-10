@@ -212,6 +212,11 @@ Merci pour votre lecture.
 
 Code entierement développé dans le cadre du projet de fin d'année.
 
+- theo.corblin@supdevinci-edu.fr
+* gaspard.david@supdevinci-edu.fr
++ quentin.raymond@supdevinci-edu.fr
+
+
 
 
 
