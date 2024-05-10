@@ -91,7 +91,7 @@ sudo pip install argparse && pip install requests && pip install python-nmap && 
 
 
 
-###⬇️ Téléchargement de la ToolBox ⬇️ 
+### ⬇️ Téléchargement de la ToolBox ⬇️ 
 ```bash
 git clone https://github.com/quentin33980/ToolBox-qgt.git
 ```
@@ -101,7 +101,7 @@ cd ToolBox-qgt
 
 
 
-###🐋 Installation Docker 🐋
+### 🐋 Installation Docker 🐋
 ```bash
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 ```
@@ -117,11 +117,11 @@ sudo apt update
 ```bash
 sudo apt install docker-ce
 ```
-###✅ Verification du fonctionnement de docker ✅
+### ✅ Verification du fonctionnement de docker ✅
 ```bash
 sudo systemctl status docker
 ```
-###🗑️ Désinstallation de docker 🗑️
+### 🗑️ Désinstallation de docker 🗑️
 
 ```bash
 sudo apt autoremove docker-compose
