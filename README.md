@@ -10,7 +10,7 @@ L'objectif de la toolbox qgt est de rechercher et d'exploiter différentes vuln�
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152884/5eb9589d-2349-4e0b-ba8a-4d80d380bfac)
 
 
-#### 🚀Diagramme de Gantt🚀
+#### <p style="text-align: center;">🚀Diagramme de Gantt🚀</p>
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152884/663b917f-9fbf-407c-be8f-bf8e87909bd2)
 
 
