@@ -242,7 +242,7 @@ Que souhaitez-vous faire ?
 4. Enumération répertoire web 
 5. Installer Apache 2.4.5
 6. CVE Apache
-7. Quitter
+7. Autodestruction
 """)
 
 # Fonction principale pour exécuter le programme
