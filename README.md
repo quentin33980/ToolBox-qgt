@@ -99,5 +99,20 @@ sudo docker build -t apache .
 sudo docker run -it apache
 ```
 
+L'option d'énumération des répertoires web permettra à l'utilisateur d'effectuer automatiquement un balayage des répertoires présents sur un serveur web. Cette fonction générera en sortie un fichier CSV et un fichier PDF, offrant ainsi une optimisation du temps lors de l'inspection d'un site web.
+
+Lors du lancement de la partie d'énumération, l'utilisateur sera invité à fournir trois paramètres :
+
+1. Adresse IP du serveur à scanner : Correspondant à l'adresse du serveur à balayer, récupérée lors de la phase de scan du réseau. <br>
+
+2. Port du serveur : Correspondant au port du serveur à scanner, également récupéré lors de la phase de scan du réseau.<br>
+
+3. Chemin de la wordlist à utiliser : L'utilisateur a la possibilité de choisir des wordlists personnalisées en fonction de ses besoins, ou bien d'utiliser directement celles présentes sur la machine Kali.<br>
+
+
+
+
+
+
 
 
