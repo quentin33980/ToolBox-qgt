@@ -117,6 +117,10 @@ nc -lvp 4444
 ![Vidéo-sans-titre-‐-Réalisée-avec-Clipchamp](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/50e5834e-36f5-4830-b190-c6617d336cf7)
 
 
+### <strong> 💣 Quitter 💣</strong> <br> 
+
+L'option n°7 sert à quitter l'outil proprement pour pouvoir repartir sur une machine vierge. 
+
 
 ## ⚙️Prérequis⚙️
 
