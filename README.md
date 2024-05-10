@@ -169,15 +169,15 @@ sudo apt install python3 -y
 sudo apt install python3-pip -y
 ```
 
-### 🛠️ Installation de Git 🛠️
+<h2 align="center">🛠️ Installation de Git 🛠️</h2>
 ```bash
 sudo apt install git -y 
 ```
-### 🛠️ Installation de nmap 🛠️
+<h2 align="center">🛠️ Installation de nmap 🛠️</h2>
 ```bash
 sudo apt install nmap
 ```
-### ⬇️ Téléchargement de la ToolBox ⬇️ 
+<h2 align="center">⬇️ Téléchargement de la ToolBox ⬇️ </h2>
 ```bash
 git clone https://github.com/quentin33980/ToolBox-qgt.git
 ```
@@ -185,12 +185,12 @@ git clone https://github.com/quentin33980/ToolBox-qgt.git
 cd ToolBox-qgt
 ```
 
-### 📚 Installation librairies 📚
+<h2 align="center">📚 Installation librairies 📚</h2>
 
 ```pip
 sudo pip install -r requirements.txt
 ```
-# 💣 Utilisation de la ToolBox 💣 
+<h1 align="center">💣 Utilisation de la ToolBox 💣 </h1>
 
 ```bash
 sudo su
