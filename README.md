@@ -1,13 +1,13 @@
 # ToolBox-qgt
 
-<h1 align="center">🎯 Objectifs 🎯</h1>
+<h1 align="center">##🎯 Objectifs 🎯</h1>
 
 
 
 L'objectif de la ToolBox QGT est de rechercher et d'exploiter différentes vulnérabilités en utilisant les <strong>CVE-2021-42013</strong> et la <strong>CVE-2024-23897</strong>. Une seconde fonctionnalité de la toolbox sera le scan d'un réseau ainsi que de l'énumération des repertoires possiblements présents sur un serveur web.
 
-
-## 💻 Gestion de Projet 💻 
+<h1 align="center">## 💻 Gestion de Projet 💻</h1>
+ 
 #### Schéma réseau 
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152884/5eb9589d-2349-4e0b-ba8a-4d80d380bfac)
 
