@@ -166,20 +166,24 @@ Le programme est utilisable en python 3, plusieurs libraries sont à installer p
 
 <h2 align="center">🛠️ Installation python et pip 🛠️</h2>
 
+
 ```bash
 sudo apt install python3 -y
 sudo apt install python3-pip -y
 ```
 
 <h2 align="center">🛠️ Installation de Git 🛠️</h2>
+
 ```bash
 sudo apt install git -y 
 ```
 <h2 align="center">🛠️ Installation de nmap 🛠️</h2>
+
 ```bash
 sudo apt install nmap
 ```
 <h2 align="center">⬇️ Téléchargement de la ToolBox ⬇️ </h2>
+
 ```bash
 git clone https://github.com/quentin33980/ToolBox-qgt.git
 ```
