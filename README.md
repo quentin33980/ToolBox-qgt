@@ -74,7 +74,7 @@ sudo apt update && sudo apt upgrade
 
 Le programme est fonctionnant en python 3, plusieurs libraries sont à installé pour faire fonctionné le programme 
 
-###🛠️ Installation python et pip 🛠️
+### 🛠️ Installation python et pip 🛠️
 
 ```bash
 sudo apt install python3 -y
