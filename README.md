@@ -65,7 +65,7 @@ Une fois le scan réaliser l'utilisateur retrouveras les résultats dans le doss
 
 
 ## ⚙️Prérequis⚙️
-Le développement de l'outil étant réalisé sur une base de Kali Linux, il est conseillé à l'utilisateur de lancer l'installation sur cette distribution pour éviter toutes erreurs de composants. <br>
+Le développement de l'outil étant réalisé sur une base de Kali Linux, il est conseillé à l'utilisateur de lancer l'installation sur cette distribution pour éviter toutes erreurs de composants. La toolbox ne fonctionnera pas sur une machine dans un container (docker) ! <br>
 Mises à jours de la distribution Linux 
 
 ```bash
