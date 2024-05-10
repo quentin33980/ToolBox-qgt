@@ -139,7 +139,7 @@ Mises à jours de la distribution Linux
 sudo apt update && sudo apt upgrade -y
 ```
 
-Le programme est fonctionnant en python 3, plusieurs libraries sont à installé pour faire fonctionné le programme 
+Le programme est utilisable en python 3, plusieurs libraries sont à installer pour faire fonctionner le programme 
 
 ### 🛠️ Installation python et pip 🛠️
 
