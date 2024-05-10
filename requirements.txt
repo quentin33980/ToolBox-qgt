@@ -2,3 +2,4 @@ scapy
 reportlab
 netifaces
 requests
+python-nmap
