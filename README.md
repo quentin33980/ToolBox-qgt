@@ -208,13 +208,12 @@ sudo su
 sudo python3 toolbox.py
 ```
 
-Here is a simple footnote[^1].
+Merci pour votre lecture.
 
-A footnote can also have multiple lines[^2].
+Code entierement développé dans le cadre du projet de fin d'année.
 
-[^1]: My reference.
-[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
-  This is a second line.
+[^1]: Nous contacté par mail si besoin avec nos adresse supdevinci.
+[^2]: Théo CORBLIN ; Gaspard DAVID ; Quentin RAYMOND.
 
 
 
