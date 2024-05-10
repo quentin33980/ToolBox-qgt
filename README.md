@@ -213,12 +213,5 @@ Merci pour votre lecture.
 Code entierement développé dans le cadre du projet de fin d'année.
 
 
-[1^]: Nous contacté par mail si besoin avec nos adresse supdevinci.
-
-
-[2^]: Théo CORBLIN ; Gaspard DAVID ; Quentin RAYMOND.
-
-
-
 
 
