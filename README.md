@@ -51,7 +51,7 @@ Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déj�
 ```bash 
 time.sleep(TEMPS_A_MODIFIER_EN_SECONDE)
 ```
-<strong>🔍Exploitation du Jenkins🔍</strong> <br> 
+### <strong>🔍Exploitation du Jenkins🔍</strong> <br> 
 
 L'option n°2 permet d'exploité le service Jenkins 2.441. Il utilise la CVE-2024-23897 permettant de récupérer le mot de passe de l'administrateur en téléchargeant le fichier 'jenkins-cli.jar' depuis le serveur Jenkins. Ce dernier est mis dans une commande java qui sortira une erreur verbeuse nous indiquant le mot de passe administrateur.Le mot de passe sera également noté dans un fichier nommée 'mdpADMIN'.<strong> Il suffira de copier coller le mot de passe (utilisateur 'admin') sur le navigateur </strong>.  Une page Firefox ou le navigateur par défaut devrait s'ouvrir directement sur la page ci-dessous.
 
@@ -67,7 +67,7 @@ L'option n°2 permet d'exploité le service Jenkins 2.441. Il utilise la CVE-202
 
 Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '172.17.0.2:80'.
 
-<strong>📡Scan du réseau📡 : </strong> <br> 
+### <strong>📡Scan du réseau📡 : </strong> <br> 
 
 L'option n°3 utilise l'outil scapy ce qui permet de rendre le scan du réseau depuis l'ip automatiquement récupérer où nous sommes connecté. Une fois les ip récupérées, un rapport est généré dans un dossier respectif 'ip-results', en .csv puis converti en .pdf. En plus de cela, il propose de faire un scan plus développé en s'appuyant sur l'outil Nmap pour en faire un rapport, une page par Ip, également produit dans le dossier.
 
@@ -82,7 +82,7 @@ Lors du lancement de la partie d'énumération, l'utilisateur sera invité à fo
 **3.** Chemin de la wordlist à utiliser : L'utilisateur a la possibilité de choisir des wordlists personnalisées en fonction de ses besoins, ou bien d'utiliser directement celles présentes sur la machine Kali.<br>
 Une fois le scan réaliser l'utilisateur retrouveras les résultats dans le dossier **"Résultats Enummération".**
 
-<strong>🛠️Installation d'Apache🛠️</strong> <br> 
+### <strong>🛠️Installation d'Apache🛠️</strong> <br> 
 
 L'option n°5 permet d'installer un service Apache 2.4.50 sur un docker. Une page Firefox ou le navigateur par défaut devrait s'ouvrir directement sur la page ci-dessous. 
 
@@ -105,7 +105,7 @@ sudo docker stop CONTAINER_NAME
 Vous pourrez à nouveau faire l'installation via la Toolbox. 
 
 
-<strong>🔍Exploitation d'Apache🔍</strong> <br> 
+### <strong>🔍Exploitation d'Apache🔍</strong> <br> 
 
 L'option n°6 permet d'utiliser la CVE-2021-42013.py sur le service Apache 2.4.50 (fonctionne également sur la 2.4.49). Cette CVE nous permet d'obtenir un revershell du serveur. <strong> Il faut bien penser à ouvrir un second terminal pour utiliser la commande d'écoute netcat sur le port 4444 : 
 
