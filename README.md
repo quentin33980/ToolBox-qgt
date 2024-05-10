@@ -1,6 +1,6 @@
 # ToolBox-qgt
 
-> [!NOTE]
+>[!WARNING]
 > Cette Toolbox est privé et a été développé par nous 3 (QGT).
 > Toutes réutilisations du code n'est pas accepté. 
 
