@@ -168,9 +168,10 @@ sudo pip install -r requirements.txt
 
 ```bash
 sudo su
+```
+```bash
 sudo python3 toolbox.py
 ```
-
 
 
 
