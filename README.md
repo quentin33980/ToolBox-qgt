@@ -1,6 +1,6 @@
 # ToolBox-qgt
 
->[!WARNING]
+>[!NOTE]
 > Cette Toolbox est privé et a été développé par nous 3 (QGT).
 > Toutes réutilisations du code n'est pas accepté. 
 
@@ -58,7 +58,7 @@ L'option n°1 permet d'installer un service Jenkins 2.441 sur un docker. Une pag
 
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/8428d758-fbd1-47de-a0a1-5c679aa77887)
 
-> [!Caution]
+> [!WARNING]
 ><h3 align="center">🔥ATTENTION🔥</h3>
 
 Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '127.0.0.1:8080'. Si la page ne fonctionne pas, un temps de 80 secondes est imposé pour permettre au serveur de bien démarrer. Une machine suffisament puissante devrait le faire en moins de 80 secondes. Si ce n'est pas le cas, il faudra modifier le fichier JenkinsInstall.py sur les dernières lignes :
@@ -78,7 +78,7 @@ L'option n°2 permet d'exploiter le service Jenkins 2.441. Il utilise la CVE-202
 
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/59e47258-2bb9-4f4c-b587-82bc2ee14809)
 
-> [!Caution]
+> [!WARNING]
 ><h3 align="center">🔥ATTENTION🔥</h3>
 
 
@@ -105,7 +105,7 @@ L'option n°5 permet d'installer un service Apache 2.4.50 sur un docker. Une pag
 
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/32018a64-85c7-4662-a9de-56d24b4e70a8)
 
-> [!Caution]
+> [!WARNING]
 ><h3 align="center">🔥ATTENTION🔥</h3>
 
 
