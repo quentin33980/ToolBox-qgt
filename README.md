@@ -104,6 +104,12 @@ sudo docker stop CONTAINER_NAME
 ```
 Vous pourrez à nouveau faire l'installation via la Toolbox. 
 
+Si le problème est une erreur de port déjà utilisé, il faut faire un kill du processus pour relance le nc après : 
+
+```bash
+sudo lsof -i :4444
+sudo kill -9 NUMERO_DU_PID_UTILISE
+```
 
 ### <strong>🔍Exploitation d'Apache🔍</strong> <br> 
 
@@ -177,26 +183,6 @@ sudo python3 toolbox.py
 
 
 
-### 🐋 Installation Docker 🐋
-```bash
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
-```
-```bash
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-```
-```bash
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-```
-```bash
-sudo apt update
-```
-```bash
-sudo apt install docker-ce
-```
-### ✅ Verification du fonctionnement de docker ✅
-```bash
-sudo systemctl status docker
-```
 ### 🗑️ Désinstallation de docker 🗑️
 
 ```bash
