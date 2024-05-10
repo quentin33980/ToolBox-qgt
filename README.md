@@ -17,11 +17,11 @@ L'objectif de la ToolBox QGT est de rechercher et d'exploiter différentes vuln�
 
 <h1 align="center">💻 Gestion de Projet 💻</h1>
  
-#### Schéma réseau 
+<h1 align="center">Schéma réseau </h1>
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152884/5eb9589d-2349-4e0b-ba8a-4d80d380bfac)
 
 
-#### 🚀Diagramme de Gantt🚀 
+<h1 align="center"> 🚀Diagramme de Gantt🚀 </h1>
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152884/663b917f-9fbf-407c-be8f-bf8e87909bd2)
 
 
@@ -41,7 +41,7 @@ Le projet s'est composé de neuf grandes parties : <br>
 
 
 
-## ℹ️ Présentation ℹ️ 
+<h1 align="center">ℹ️ Présentation ℹ️ </h1>
 La toolbox propose de 6 programmes différents 
 
 
@@ -56,7 +56,7 @@ L'option n°1 permet d'installer un service Jenkins 2.441 sur un docker. Une pag
 
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/8428d758-fbd1-47de-a0a1-5c679aa77887)
 
-🔥ATTENTION🔥
+<h3 align="center">🔥ATTENTION🔥</h3>
 
 Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '127.0.0.1:8080'. Si la page ne fonctionne pas, un temps de 80 secondes est imposé pour permettre au serveur de bien démarrer. Une machine suffisament puissante devrait le faire en moins de 80 secondes. Si ce n'est pas le cas, il faudra modifier le fichier JenkinsInstall.py sur les dernières lignes :
 
@@ -75,7 +75,8 @@ L'option n°2 permet d'exploiter le service Jenkins 2.441. Il utilise la CVE-202
 
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/59e47258-2bb9-4f4c-b587-82bc2ee14809)
 
-🔥ATTENTION🔥
+<h3 align="center">🔥ATTENTION🔥</h3>
+
 
 Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '172.17.0.2:80'.
 
@@ -100,7 +101,8 @@ L'option n°5 permet d'installer un service Apache 2.4.50 sur un docker. Une pag
 
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/32018a64-85c7-4662-a9de-56d24b4e70a8)
 
-🔥ATTENTION🔥
+<h3 align="center">🔥ATTENTION🔥</h3>
+
 
 Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert) ou si le revershell ne fonctionne pas :
 
@@ -118,7 +120,7 @@ Récupérer TOUT les containers ID pour le mettre dans la commande suivante :
 ```bash
 sudo docker stop CONTAINER_NAME CONTAINER_NAME2
 ```
-### 🔒Vous pourrez à nouveau faire l'installation d'Apache via la Toolbox.🔒 
+<h2 align="center">🔒Vous pourrez à nouveau faire l'installation d'Apache via la Toolbox.🔒 </h2>
 
 Si le problème est une erreur de port déjà utilisé, il faut faire un kill du processus pour relance le nc après : 
 
@@ -147,7 +149,7 @@ nc -lvp 4444
 L'option n°7 (anéanti la machine en supprimant la racine) sert à quitter l'outil <strong>proprement</strong> (en cas de problème 😊 ).  
 
 
-## ⚙️Prérequis⚙️
+<h1 align="center">⚙️Prérequis⚙️</h1>
 
 ⚔️AVOIR UNE CONNEXION INTERNET SUR LA MACHINE QUI HEBERGERA LA TOOLBOX⚔️
 
@@ -160,7 +162,7 @@ sudo apt update && sudo apt upgrade -y
 
 Le programme est utilisable en python 3, plusieurs libraries sont à installer pour faire fonctionner le programme 
 
-### 🛠️ Installation python et pip 🛠️
+<h2 align="center">🛠️ Installation python et pip 🛠️</h2>
 
 ```bash
 sudo apt install python3 -y
