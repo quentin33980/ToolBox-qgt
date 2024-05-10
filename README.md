@@ -54,7 +54,6 @@ sudo apt install python3-pip -y
 
 ```pip
 sudo pip install argparse && pip install requests && pip install python-nmap && pip install reportlab
-
 ```
 
 ### 🐋 Installation Docker
