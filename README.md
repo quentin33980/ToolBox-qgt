@@ -44,12 +44,51 @@ METTRE CAPTURE D ECRAN DE LA TOOLBOX ET SUPPRIMER LE RESTE
 </ol>
 
 <strong>🛠️Installation du Jenkins🛠️</strong> <br> explication
+L'option n°1 permet d'installer un service Jenkins 2.441 sur un docker. Une page Firefox ou le navigateur par défaut devrait s'ouvrir directement sur la page ci-dessous. 
+
+🔥ATTENTION🔥
+
+Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '127.0.0.1:8080'. Si la page ne fonctionne pas, un temps de 80 secondes est imposé pour permettre au serveur de bien démarrer. Une machine suffisament puissante devrait le faire en moins de 80 secondes. Si ce n'est pas le cas, il faudra modifier le fichier JenkinsInstall.py sur les dernières lignes :
+
+```bash 
+time.sleep(TEMPS_A_MODIFIER_EN_SECONDE)
+```
+
+<strong>🛠️Installation d'Apache🛠️</strong> <br> 
+
+L'option n°5 permet d'installer un service Apache 2.4.50 sur un docker. Une page Firefox ou le navigateur par défaut devrait s'ouvrir directement sur la page ci-dessous. 
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/32018a64-85c7-4662-a9de-56d24b4e70a8)
 
-<strong>🛠️Installation d'Apache🛠️</strong> <br> explication
+🔥ATTENTION🔥
+
+Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '172.17.0.2:80'. Si la page ne fonctionne pas, il faudra faire la commande suivante : 
+
+```bash
+sudo docker ps
+```
+![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/7fce846f-cfcb-4284-8a02-ac4505fe7eef)
+Récupéré le container ID pour le mettre dans la commande suivante : 
+
+```bash
+sudo docker stop CONTAINER_NAME
+```
+Vous pourrez à nouveau faire l'installation via la Toolbox. 
 
 <strong>🔍Exploitation du Jenkins🔍</strong> <br> explication
 
+L'option n°2 permet d'exploité le service Jenkins 2.441. Il utilise la CVE-2024-23897 permettant de récupérer le mot de passe de l'administrateur en téléchargeant le fichier 'jenkins-cli.jar' depuis le serveur Jenkins. Ce dernier est mis dans une commande java qui sortira une erreur verbeuse nous indiquant le mot de passe administrateur.Le mot de passe sera également noté dans un fichier nommée 'mdpADMIN'.<strong> Il suffira de copier coller le mot de passe sur le navigateur </strong>.  Une page Firefox ou le navigateur par défaut devrait s'ouvrir directement sur la page ci-dessous.
+
+# Première connexion 
+
+![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/8428d758-fbd1-47de-a0a1-5c679aa77887)
+
+# Après la première connexion déjà établie  
+
+![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/59e47258-2bb9-4f4c-b587-82bc2ee14809)
+
+🔥ATTENTION🔥
+
+Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '172.17.0.2:80'.
 <strong>🔍Exploitation d'Apache🔍</strong> <br> explication
 
 <strong>📡Scan du réseau📡 : </strong> <br> explication
