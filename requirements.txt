@@ -3,4 +3,3 @@ reportlab
 netifaces
 requests
 python-nmap
-nmap
