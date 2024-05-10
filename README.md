@@ -69,7 +69,7 @@ Le développement de l'outil étant réalisé sur une base de Kali Linux, il est
 Mises à jours de la distribution Linux 
 
 ```bash
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 ```
 
 Le programme est fonctionnant en python 3, plusieurs libraries sont à installé pour faire fonctionné le programme 
