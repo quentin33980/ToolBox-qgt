@@ -33,8 +33,7 @@ La toolbox est consitué de 4 programmes différents
 <strong>CVE-2021-42013 : </strong> <br>explication 
 
 ## ⚙️Prérequis
-Installation sur une machine Linux, préferé une machine Kali ou parrot
-
+Le développement de l'outil étant réalisé sur une base de Kali Linux, il est conseillé à l'utilisateur de lancer l'installation sur cette distribution pour éviter toutes erreurs de composants. <br>
 Mises à jours de la distribution Linux 
 
 ```bash
