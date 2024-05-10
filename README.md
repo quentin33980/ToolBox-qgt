@@ -1,6 +1,6 @@
 # ToolBox-qgt
 
-## 🎯 Objectifs 🎯
+## 🎯 Objectifs 🎯 {style=text-align:center}
 
 
 
