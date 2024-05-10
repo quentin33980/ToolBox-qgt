@@ -31,22 +31,28 @@ Le projet s'est composé de neuf grandes parties : <br>
 
 
 ## ℹ️ Présentation 
-La toolbox est consitué de 4 programmes différents 
+La toolbox est consitué de 6 programmes différents 
 <ol>
-  <li>Scan du réseau</li>
-  <li>Enumération repertoire web </li>
-  <li>CVE-2024-23897</li>
-  <li>CVE-2021-42013 </li>
+  <li>Installation de Jenkins</li>
+  <li>Installation d'Apache</li>
+  <li>Exploitation du Jenkins</li>
+  <li>Exploitation d'Apache</li>
+  <li>Scan réseau</li>
+  <li>Enumération de répertoire web</li>
 </ol>
+
+<strong>Installation du Jenkins</strong> <br> explication
+
+<strong>Installation d'Apache</strong> <br> explication
+
+<strong>Exploitation du Jenkins</strong> <br> explication
+
+<strong>Exploitation d'Apache</strong> <br> explication
 
 <strong>Scan du réseau : </strong> <br> explication
 
 <strong>Enumération repertoire web : </strong> <br> permet à l'utilisateur de lancer une exploration des répertoires sur un serveur web. L'outil scanne automatiquement les répertoires en fonction de la liste de mots choisie et renvoie les résultats sous forme d'un fichier CSV.
 
-<strong>CVE-2024-23897 : </strong> <br> Ce choix permet d'utiliser un exploit pfonctionnant sur le service <strong>Jenkin version 2.441 </strong>.
-
-
-<strong>CVE-2021-42013 : </strong> <br>explication 
 
 ## ⚙️Prérequis
 Le développement de l'outil étant réalisé sur une base de Kali Linux, il est conseillé à l'utilisateur de lancer l'installation sur cette distribution pour éviter toutes erreurs de composants. <br>
