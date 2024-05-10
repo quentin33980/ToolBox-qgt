@@ -18,10 +18,12 @@ L'objectif de la ToolBox QGT est de rechercher et d'exploiter différentes vuln�
 <h1 align="center">💻 Gestion de Projet 💻</h1>
  
 <h1 align="center">Schéma réseau </h1>
+
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152884/5eb9589d-2349-4e0b-ba8a-4d80d380bfac)
 
 
 <h1 align="center"> 🚀Diagramme de Gantt🚀 </h1>
+
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152884/663b917f-9fbf-407c-be8f-bf8e87909bd2)
 
 
