@@ -1,6 +1,8 @@
 # ToolBox-qgt
+
 > [!Attention]
 > Cette toolbox est à des fins pédagogiques, ne pas utiliser sans accord.
+
 > [!NOTE]
 > Cette Toolbox est privé et a été développé par nous 3 (QGT).
 > Toutes réutilisations du code n'est pas accepté. 
