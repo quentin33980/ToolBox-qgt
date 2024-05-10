@@ -1,16 +1,16 @@
-# ToolBox-qgt
+#🧰 ToolBox-qgt 🧰
 
-## 🎯Objectifs 
+## 🎯 Objectifs 🎯 
 
 L'objectif de la toolbox qgt est de rechercher et d'exploiter différentes vulnérabilités en utilisant les <strong>CVE-2021-42013</strong> et la <strong>CVE-2024-23897</strong>. Une seconde fonctionnalité de la toolbox sera le scan d'un réseau ainsi que de l'énumération des repertoires possiblement présent sur un serveur web.
 
 
-## Gestion de Projet 
+##💻 Gestion de Projet 💻 
 #### Schéma réseau 
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152884/5eb9589d-2349-4e0b-ba8a-4d80d380bfac)
 
 
-#### Diagramme de Gantt
+####🚀Diagramme de Gantt🚀
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152884/663b917f-9fbf-407c-be8f-bf8e87909bd2)
 
 
@@ -30,7 +30,7 @@ Le projet s'est composé de neuf grandes parties : <br>
 
 
 
-## ℹ️ Présentation 
+## ℹ️ Présentation ℹ️ 
 La toolbox est consitué de 6 programmes différents 
 
 METTRE CAPTURE D ECRAN DE LA TOOLBOX ET SUPPRIMER LE RESTE
@@ -51,10 +51,10 @@ METTRE CAPTURE D ECRAN DE LA TOOLBOX ET SUPPRIMER LE RESTE
 
 <strong>Exploitation d'Apache</strong> <br> explication
 
-<strong>Scan du réseau : </strong> <br> explication
+<strong>📡Scan du réseau📡 : </strong> <br> explication
 
 
-### 🗂️ Enumération répertoires web 
+### 🗂️ Enumération répertoires web 🗂️
 L'option d'énumération des répertoires web permettra à l'utilisateur d'effectuer automatiquement un balayage des répertoires présents sur un serveur web. Cette fonction générera en sortie un fichier CSV et un fichier PDF, offrant ainsi une optimisation du temps lors de l'inspection d'un site web.
 
 Lors du lancement de la partie d'énumération, l'utilisateur sera invité à fournir trois paramètres : <br>
@@ -64,7 +64,7 @@ Lors du lancement de la partie d'énumération, l'utilisateur sera invité à fo
 Une fois le scan réaliser l'utilisateur retrouveras les résultats dans le dossier **"Résultats Enummération".**
 
 
-## ⚙️Prérequis
+## ⚙️Prérequis⚙️
 Le développement de l'outil étant réalisé sur une base de Kali Linux, il est conseillé à l'utilisateur de lancer l'installation sur cette distribution pour éviter toutes erreurs de composants. <br>
 Mises à jours de la distribution Linux 
 
@@ -74,20 +74,34 @@ sudo apt update && sudo apt upgrade
 
 Le programme est fonctionnant en python 3, plusieurs libraries sont à installé pour faire fonctionné le programme 
 
-###  Installation python et pip
+###🛠️ Installation python et pip 🛠️
 
 ```bash
 sudo apt install python3 -y
 sudo apt install python3-pip -y
 ```
 
-### 📚 Installation librairies 
+### 📚 Installation librairies 📚
 
 ```pip
 sudo pip install argparse && pip install requests && pip install python-nmap && pip install reportlab
 ```
 
-### 🐋 Installation Docker
+
+
+
+
+###⬇️ Téléchargement de la ToolBox ⬇️ 
+```bash
+git clone https://github.com/quentin33980/ToolBox-qgt.git
+```
+```bash
+cd ToolBox-qgt
+```
+
+
+
+###🐋 Installation Docker 🐋
 ```bash
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 ```
@@ -103,32 +117,16 @@ sudo apt update
 ```bash
 sudo apt install docker-ce
 ```
-
-Verification du fonctionnement de docker
+###✅ Verification du fonctionnement de docker ✅
 ```bash
 sudo systemctl status docker
 ```
+###🗑️ Désinstallation de docker 🗑️
 
-
-### ⬇️ Téléchargement de la ToolBox 
 ```bash
-git clone https://github.com/quentin33980/ToolBox-qgt.git
-```
-```bash
-cd ToolBox-qgt
+sudo apt autoremove docker-compose
 ```
 
-
-
-
-
-### 🏴‍☠️ Installation du docker APACHE 
-```bash
-sudo docker build -t apache .
-```
-```bash
-sudo docker run -it apache
-```
 
 
 
