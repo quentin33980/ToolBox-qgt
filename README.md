@@ -92,6 +92,9 @@ git clone https://github.com/quentin33980/ToolBox-qgt.git
 ```bash
 cd ToolBox-qgt
 ```
+```bash
+sudo python3 toolbox.py
+```
 
 ### 📚 Installation librairies 📚
 
