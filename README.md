@@ -85,6 +85,10 @@ sudo apt install python3-pip -y
 ```bash
 sudo apt install git -y 
 ```
+### 🛠️ Installation de nmap 🛠️
+```bash
+sudo apt install nmap
+```
 ### ⬇️ Téléchargement de la ToolBox ⬇️ 
 ```bash
 git clone https://github.com/quentin33980/ToolBox-qgt.git
