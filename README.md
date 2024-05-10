@@ -14,6 +14,22 @@ L'objectif de la toolbox qgt est de rechercher et d'exploiter différentes vuln�
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152884/663b917f-9fbf-407c-be8f-bf8e87909bd2)
 
 
+Le projet s'est composé de neuf grandes parties : <br>
+
+1. **Planification** : Élaboration d'une stratégie et d'un calendrier pour le développement. <br>
+2. **Choix des outils développés** : Sélection des outils à concevoir pour répondre aux besoins du projet. <br>
+3. **Recherche de CVE** : Identification des vulnérabilités courantes et pertinentes à prendre en compte.<br>
+4. **Analyse de la faille** : Étude approfondie des vulnérabilités détectées pour comprendre leurs implications. <br>
+5. **Recherche de POC** : Recherche de Preuves de Concept pour valider les vulnérabilités identifiées. <br>
+6. **Développement de la toolBox** : Création des outils nécessaires pour exploiter les failles découvertes. <br>
+7. **Test et débogage** : Évaluation et correction des erreurs et des bogues dans les outils développés. <br>
+8. **Documentation** : Rédaction de documents expliquant l'utilisation et le fonctionnement des outils.<br>
+9. **Révision finale** : Dernière vérification de l'ensemble du projet avant sa livraison ou sa publication. <br>
+
+
+
+
+
 ## ℹ️ Présentation 
 La toolbox est consitué de 4 programmes différents 
 <ol>
