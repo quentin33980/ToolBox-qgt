@@ -178,7 +178,7 @@ cd ToolBox-qgt
 ```pip
 sudo pip install -r requirements.txt
 ```
-### 💣 Utilisation de la ToolBox 💣 
+# 💣 Utilisation de la ToolBox 💣 
 
 ```bash
 sudo su
