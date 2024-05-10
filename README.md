@@ -66,6 +66,7 @@ Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déj�
 sudo docker ps
 ```
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/7fce846f-cfcb-4284-8a02-ac4505fe7eef)
+
 Récupéré le container ID pour le mettre dans la commande suivante : 
 
 ```bash
@@ -88,7 +89,17 @@ L'option n°2 permet d'exploité le service Jenkins 2.441. Il utilise la CVE-202
 🔥ATTENTION🔥
 
 Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '172.17.0.2:80'.
-<strong>🔍Exploitation d'Apache🔍</strong> <br> explication
+
+<strong>🔍Exploitation d'Apache🔍</strong> <br> 
+
+L'option n°6 permet d'utiliser la CVE-2021-42013.py sur le service Apache 2.4.50 (fonctionne également sur la 2.4.49). Cette CVE nous permet d'obtenir un revershell du serveur. <strong> Il faut bien penser à ouvrir un second terminal pour utiliser la commande d'écoute netcat sur le port 4444 : 
+
+```
+bash 
+nc -lvp 4444
+```
+
+![2024-05-10-18-29-39](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/3d46ae18-d910-477b-bb23-f60f6aeb5e62)
 
 <strong>📡Scan du réseau📡 : </strong> <br> 
 
