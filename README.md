@@ -53,6 +53,15 @@ La toolbox est consitué de 6 programmes différents
 
 <strong>Enumération repertoire web : </strong> <br> permet à l'utilisateur de lancer une exploration des répertoires sur un serveur web. L'outil scanne automatiquement les répertoires en fonction de la liste de mots choisie et renvoie les résultats sous forme d'un fichier CSV.
 
+### 🗂️ Enumération répertoires web 
+L'option d'énumération des répertoires web permettra à l'utilisateur d'effectuer automatiquement un balayage des répertoires présents sur un serveur web. Cette fonction générera en sortie un fichier CSV et un fichier PDF, offrant ainsi une optimisation du temps lors de l'inspection d'un site web.
+
+Lors du lancement de la partie d'énumération, l'utilisateur sera invité à fournir trois paramètres : <br>
+**1.** Adresse IP du serveur à scanner : Correspondant à l'adresse du serveur à balayer, récupérée lors de la phase de scan du réseau. <br>
+**2.** Port du serveur : Correspondant au port du serveur à scanner, également récupéré lors de la phase de scan du réseau.<br>
+**3.** Chemin de la wordlist à utiliser : L'utilisateur a la possibilité de choisir des wordlists personnalisées en fonction de ses besoins, ou bien d'utiliser directement celles présentes sur la machine Kali.<br>
+Une fois le scan réaliser l'utilisateur retrouveras les résultats dans le dossier **"Résultats Enummération".**
+
 
 ## ⚙️Prérequis
 Le développement de l'outil étant réalisé sur une base de Kali Linux, il est conseillé à l'utilisateur de lancer l'installation sur cette distribution pour éviter toutes erreurs de composants. <br>
@@ -110,14 +119,6 @@ cd ToolBox-qgt
 
 
 
-### 🗂️ Enumération répertoires web 
-L'option d'énumération des répertoires web permettra à l'utilisateur d'effectuer automatiquement un balayage des répertoires présents sur un serveur web. Cette fonction générera en sortie un fichier CSV et un fichier PDF, offrant ainsi une optimisation du temps lors de l'inspection d'un site web.
-
-Lors du lancement de la partie d'énumération, l'utilisateur sera invité à fournir trois paramètres : <br>
-**1.** Adresse IP du serveur à scanner : Correspondant à l'adresse du serveur à balayer, récupérée lors de la phase de scan du réseau. <br>
-**2.** Port du serveur : Correspondant au port du serveur à scanner, également récupéré lors de la phase de scan du réseau.<br>
-**3.** Chemin de la wordlist à utiliser : L'utilisateur a la possibilité de choisir des wordlists personnalisées en fonction de ses besoins, ou bien d'utiliser directement celles présentes sur la machine Kali.<br>
-Une fois le scan réaliser l'utilisateur retrouveras les résultats dans le dossier **"Résultats Enummération".**
 
 
 ### 🏴‍☠️ Installation du docker APACHE 
