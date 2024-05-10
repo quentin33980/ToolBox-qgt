@@ -97,7 +97,7 @@ sudo docker ps
 ```
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/7fce846f-cfcb-4284-8a02-ac4505fe7eef)
 
-Récupéré le container ID pour le mettre dans la commande suivante : 
+Récupérer le container ID pour le mettre dans la commande suivante : 
 
 ```bash
 sudo docker stop CONTAINER_NAME
