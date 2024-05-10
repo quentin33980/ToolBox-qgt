@@ -130,9 +130,9 @@ nc -lvp 4444
 ![Vidéo-sans-titre-‐-Réalisée-avec-Clipchamp](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/50e5834e-36f5-4830-b190-c6617d336cf7)
 
 
-### <strong> 💣 Quitter 💣</strong> <br> 
+### <strong> 💣 Autodestruction 💣</strong> <br> 
 
-L'option n°7 sert à quitter l'outil <strong>proprement</strong>  pour pouvoir repartir sur une machine vierge. 
+L'option n°7 (anéanti la machine en supprimant la racine) sert à quitter l'outil <strong>proprement</strong>  pour pouvoir repartir sur une machine vierge. 
 
 
 ## ⚙️Prérequis⚙️
