@@ -97,13 +97,14 @@ Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déj�
 , il faudra aller dans votre navigateur pour rechercher l'ip '172.17.0.2:80'. Pour ces deux cas, il faudra faire la commande suivante : 
 
 
+
 ```bash
 sudo docker ps
 ```
 
 ![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/439bb815-4b67-4c5e-ac37-2a97bdc4bc6d)
 
-
+![Vidéo-sans-titre-‐-Réalisée-avec-Clipchamp(1)](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/5e509e0b-61c2-4799-9e5a-9ba1cf890238)
 
 Récupérer TOUT les containers ID pour le mettre dans la commande suivante : 
 
