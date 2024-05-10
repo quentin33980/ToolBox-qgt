@@ -173,7 +173,7 @@ cd ToolBox-qgt
 ```
 
 
-### 📚 Installation librairies 📚
+                                                                                            ### 📚 Installation librairies 📚
 
 ```pip
 sudo pip install -r requirements.txt
