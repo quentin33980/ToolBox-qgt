@@ -8,4 +8,4 @@ RUN ./httpd-2.4.50/configure --prefix=/
 RUN make && make install
 ADD httpd.conf /conf/httpd.conf
 RUN apachectl -k start
-ENTRYPOINT exec httpd -D "FOREGROUND"
+CMD exec httpd -D "FOREGROUND"
