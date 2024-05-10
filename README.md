@@ -32,6 +32,8 @@ Le projet s'est composé de neuf grandes parties : <br>
 
 ## ℹ️ Présentation 
 La toolbox est consitué de 6 programmes différents 
+
+METTRE CAPTURE D ECRAN DE LA TOOLBOX ET SUPPRIMER LE RESTE
 <ol>
   <li>Installation de Jenkins</li>
   <li>Installation d'Apache</li>
@@ -50,8 +52,6 @@ La toolbox est consitué de 6 programmes différents
 <strong>Exploitation d'Apache</strong> <br> explication
 
 <strong>Scan du réseau : </strong> <br> explication
-
-<strong>Enumération de répertoire web</strong> <br> explication
 
 
 ### 🗂️ Enumération répertoires web 
