@@ -191,10 +191,3 @@ sudo python3 toolbox.py
 
 
 
-### 🗑️ Désinstallation de docker 🗑️
-
-```bash
-sudo apt autoremove docker-compose
-```
-
-
