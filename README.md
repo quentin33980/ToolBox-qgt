@@ -122,7 +122,7 @@ Récupérer TOUT les containers ID pour le mettre dans la commande suivante :
 ```bash
 sudo docker stop CONTAINER_NAME CONTAINER_NAME2
 ```
-<h2 align="center">🔒Vous pourrez à nouveau faire l'installation d'Apache via la Toolbox.🔒 </h2>
+<h3 align="center">🔒Vous pourrez à nouveau faire l'installation d'Apache via la Toolbox.🔒 </h3>
 
 Si le problème est une erreur de port déjà utilisé, il faut faire un kill du processus pour relance le nc après : 
 
