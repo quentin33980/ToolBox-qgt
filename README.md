@@ -107,7 +107,7 @@ Vous pourrez à nouveau faire l'installation via la Toolbox.
 
 ### <strong>🔍Exploitation d'Apache🔍</strong> <br> 
 
-L'option n°6 permet d'utiliser la CVE-2021-42013.py sur le service Apache 2.4.50 (fonctionne également sur la 2.4.49). Cette CVE nous permet d'obtenir un revershell du serveur. <strong> Il faut bien penser à ouvrir un second terminal pour utiliser la commande d'écoute netcat sur le port 4444 : 
+L'option n°6 permet d'utiliser la CVE-2021-42013.py sur le service Apache 2.4.50 (fonctionne également sur la 2.4.49). Cette CVE nous permet d'obtenir un revershell du serveur. <strong> Il faut bien penser à ouvrir un second terminal pour utiliser la commande d'écoute netcat sur le port 4444</strong> : 
 
 ```
 bash 
