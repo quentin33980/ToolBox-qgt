@@ -51,6 +51,36 @@ Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déj�
 ```bash 
 time.sleep(TEMPS_A_MODIFIER_EN_SECONDE)
 ```
+<strong>🔍Exploitation du Jenkins🔍</strong> <br> 
+
+L'option n°2 permet d'exploité le service Jenkins 2.441. Il utilise la CVE-2024-23897 permettant de récupérer le mot de passe de l'administrateur en téléchargeant le fichier 'jenkins-cli.jar' depuis le serveur Jenkins. Ce dernier est mis dans une commande java qui sortira une erreur verbeuse nous indiquant le mot de passe administrateur.Le mot de passe sera également noté dans un fichier nommée 'mdpADMIN'.<strong> Il suffira de copier coller le mot de passe (utilisateur 'admin') sur le navigateur </strong>.  Une page Firefox ou le navigateur par défaut devrait s'ouvrir directement sur la page ci-dessous.
+
+### Première connexion 
+
+![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/8428d758-fbd1-47de-a0a1-5c679aa77887)
+
+### Après la première connexion déjà établie  
+
+![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/59e47258-2bb9-4f4c-b587-82bc2ee14809)
+
+🔥ATTENTION🔥
+
+Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '172.17.0.2:80'.
+
+<strong>📡Scan du réseau📡 : </strong> <br> 
+
+L'option n°3 utilise l'outil scapy ce qui permet de rendre le scan du réseau depuis l'ip automatiquement récupérer où nous sommes connecté. Une fois les ip récupérées, un rapport est généré dans un dossier respectif 'ip-results', en .csv puis converti en .pdf. En plus de cela, il propose de faire un scan plus développé en s'appuyant sur l'outil Nmap pour en faire un rapport, une page par Ip, également produit dans le dossier.
+
+
+### 🗂️ Enumération répertoires web 🗂️
+
+L'option n°4, énumération des répertoires web permettra à l'utilisateur d'effectuer automatiquement un balayage des répertoires présents sur un serveur web. Cette fonction générera en sortie un fichier CSV et un fichier PDF, offrant ainsi une optimisation du temps lors de l'inspection d'un site web.
+
+Lors du lancement de la partie d'énumération, l'utilisateur sera invité à fournir trois paramètres : <br>
+**1.** Adresse IP du serveur à scanner : Correspondant à l'adresse du serveur à balayer, récupérée lors de la phase de scan du réseau. <br>
+**2.** Port du serveur : Correspondant au port du serveur à scanner, également récupéré lors de la phase de scan du réseau.<br>
+**3.** Chemin de la wordlist à utiliser : L'utilisateur a la possibilité de choisir des wordlists personnalisées en fonction de ses besoins, ou bien d'utiliser directement celles présentes sur la machine Kali.<br>
+Une fois le scan réaliser l'utilisateur retrouveras les résultats dans le dossier **"Résultats Enummération".**
 
 <strong>🛠️Installation d'Apache🛠️</strong> <br> 
 
@@ -74,21 +104,6 @@ sudo docker stop CONTAINER_NAME
 ```
 Vous pourrez à nouveau faire l'installation via la Toolbox. 
 
-<strong>🔍Exploitation du Jenkins🔍</strong> <br> 
-
-L'option n°2 permet d'exploité le service Jenkins 2.441. Il utilise la CVE-2024-23897 permettant de récupérer le mot de passe de l'administrateur en téléchargeant le fichier 'jenkins-cli.jar' depuis le serveur Jenkins. Ce dernier est mis dans une commande java qui sortira une erreur verbeuse nous indiquant le mot de passe administrateur.Le mot de passe sera également noté dans un fichier nommée 'mdpADMIN'.<strong> Il suffira de copier coller le mot de passe (utilisateur 'admin') sur le navigateur </strong>.  Une page Firefox ou le navigateur par défaut devrait s'ouvrir directement sur la page ci-dessous.
-
-### Première connexion 
-
-![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/8428d758-fbd1-47de-a0a1-5c679aa77887)
-
-### Après la première connexion déjà établie  
-
-![image](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/59e47258-2bb9-4f4c-b587-82bc2ee14809)
-
-🔥ATTENTION🔥
-
-Si la page ne s'ouvre pas automatiquement (souvent quand le navigateur est déjà ouvert), il faudra aller dans votre navigateur pour rechercher l'ip '172.17.0.2:80'.
 
 <strong>🔍Exploitation d'Apache🔍</strong> <br> 
 
@@ -101,21 +116,6 @@ nc -lvp 4444
 
 ![Vidéo-sans-titre-‐-Réalisée-avec-Clipchamp](https://github.com/quentin33980/ToolBox-qgt/assets/129152877/50e5834e-36f5-4830-b190-c6617d336cf7)
 
-
-<strong>📡Scan du réseau📡 : </strong> <br> 
-
-L'option n°3 utilise l'outil scapy ce qui permet de rendre le scan du réseau depuis l'ip automatiquement récupérer où nous sommes connecté. Une fois les ip récupérées, un rapport est généré dans un dossier respectif 'ip-results', en .csv puis converti en .pdf. En plus de cela, il propose de faire un scan plus développé en s'appuyant sur l'outil Nmap pour en faire un rapport, une page par Ip, également produit dans le dossier.
-
-
-### 🗂️ Enumération répertoires web 🗂️
-
-L'option n°4, énumération des répertoires web permettra à l'utilisateur d'effectuer automatiquement un balayage des répertoires présents sur un serveur web. Cette fonction générera en sortie un fichier CSV et un fichier PDF, offrant ainsi une optimisation du temps lors de l'inspection d'un site web.
-
-Lors du lancement de la partie d'énumération, l'utilisateur sera invité à fournir trois paramètres : <br>
-**1.** Adresse IP du serveur à scanner : Correspondant à l'adresse du serveur à balayer, récupérée lors de la phase de scan du réseau. <br>
-**2.** Port du serveur : Correspondant au port du serveur à scanner, également récupéré lors de la phase de scan du réseau.<br>
-**3.** Chemin de la wordlist à utiliser : L'utilisateur a la possibilité de choisir des wordlists personnalisées en fonction de ses besoins, ou bien d'utiliser directement celles présentes sur la machine Kali.<br>
-Une fois le scan réaliser l'utilisateur retrouveras les résultats dans le dossier **"Résultats Enummération".**
 
 
 ## ⚙️Prérequis⚙️
