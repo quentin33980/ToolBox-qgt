@@ -43,13 +43,13 @@ METTRE CAPTURE D ECRAN DE LA TOOLBOX ET SUPPRIMER LE RESTE
   <li>Enumération de répertoire web</li>
 </ol>
 
-<strong>Installation du Jenkins</strong> <br> explication
+<strong>🛠️Installation du Jenkins🛠️</strong> <br> explication
 
-<strong>Installation d'Apache</strong> <br> explication
+<strong>🛠️Installation d'Apache🛠️</strong> <br> explication
 
-<strong>Exploitation du Jenkins</strong> <br> explication
+<strong🔍>Exploitation du Jenkins🔍</strong> <br> explication
 
-<strong>Exploitation d'Apache</strong> <br> explication
+<strong>🔍Exploitation d'Apache🔍</strong> <br> explication
 
 <strong>📡Scan du réseau📡 : </strong> <br> explication
 
