@@ -1,6 +1,6 @@
 # ToolBox-qgt
 <p align="center">
-// <h2> 🎯 Objectifs 🎯 </h2>  
+<h2> 🎯 Objectifs 🎯 </h2>  
 </p>
 
 
