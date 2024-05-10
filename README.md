@@ -47,7 +47,7 @@ METTRE CAPTURE D ECRAN DE LA TOOLBOX ET SUPPRIMER LE RESTE
 
 <strong>🛠️Installation d'Apache🛠️</strong> <br> explication
 
-<strong🔍>Exploitation du Jenkins🔍</strong> <br> explication
+<strong>🔍Exploitation du Jenkins🔍</strong> <br> explication
 
 <strong>🔍Exploitation d'Apache🔍</strong> <br> explication
 
